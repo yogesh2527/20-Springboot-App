@@ -33,7 +33,7 @@ public class StudentController {
 	@RequestMapping("/getAll")
 	public ModelAndView getAllStudents()
 	{
-		
+		System.out.println("Get All Students");
 		ModelAndView modelAndView = new ModelAndView();
 		
 		List<Student>students=studentService.getStudent();
