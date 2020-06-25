@@ -57,7 +57,7 @@ public class StudentController {
 	@RequestMapping(path="/createStudent")
 	public String createStudent( Model model )
 	{
-			
+		System.out.println("New Student is Added");
 			
 		model.addAttribute("command", new Student());
 		
